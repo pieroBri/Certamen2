@@ -1,0 +1,124 @@
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}
+
+h1{
+    margin : 25px;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav{
+    margin-left: 25px;
+}
+
+#ListaDeNavegacion{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#ListaDeNavegacion li{
+    width: 90px;
+    height: 20px;
+    padding: 10px;
+    margin: 5px;
+    border: black 1px solid;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#ListaDeNavegacion span{
+    padding-right: 5px;
+    vertical-align: middle;
+}
+
+#ListaDeNavegacion a{
+    text-decoration: none;
+}
+
+#Galeria-libros{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+#Galeria-libros img{
+    width: 210px;
+    height: 360px;
+    display: block;
+    margin: auto;
+}
+
+#Galeria-libros li{
+    padding: 10px;
+    margin: 18px;
+    border: black 1px solid;
+    width: 300px;
+    height: 500px;
+}
+
+.Titulo{
+    height: 50px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+.Autor{
+    padding-top: 5px;
+    font-size: 85%;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 5px;
+    margin-bottom:20px;
+    font-weight: bold;
+}
+
+.Páginas{
+    padding-top: 35px;
+    font-size: 75%;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+footer{
+    vertical-align: middle;
+}
+
+#FootPagina{
+    height: 45px;
+    margin-top: 130px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    border: black 1px solid;
+    padding-top: 35px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
